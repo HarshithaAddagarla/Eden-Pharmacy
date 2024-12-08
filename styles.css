@@ -1,0 +1,88 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background: #f8f8f8;
+    padding: 1rem 0;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+    background: #e0f7fa;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #00796b;
+}
+
+.hero .explore-btn {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background: #00796b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Features Section */
+.features {
+    background: #00796b;
+    color: white;
+    padding: 2rem 0;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+/* Ingredients Section */
+.ingredients {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.ingredients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+/* Latest News Section */
+.latest-news {
+    padding: 2rem 0;
+    background: #f9f9f9;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
